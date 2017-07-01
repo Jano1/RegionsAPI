@@ -12,5 +12,5 @@ public interface RegionService extends ContextualService<Region>{
     public void addRegion(Region region);
     public void removeRegion(String region_id);
 
-    public Region[] getRegionsThatContains(Location location);
+    public Region[] getRegionsFor(Location location);
 }
