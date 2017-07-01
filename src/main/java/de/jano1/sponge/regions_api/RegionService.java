@@ -4,7 +4,7 @@ import org.spongepowered.api.service.context.ContextualService;
 import org.spongepowered.api.world.Location;
 
 /**
- * Created by jleissner on 01.07.2017.
+ * Created by Jano1 on 01.07.2017.
  */
 public interface RegionService extends ContextualService<Region>{
     public Region[] getRegions();
