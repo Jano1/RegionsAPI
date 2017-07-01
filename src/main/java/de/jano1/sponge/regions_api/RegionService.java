@@ -6,7 +6,7 @@ import org.spongepowered.api.world.Location;
 /**
  * Created by Jano1 on 01.07.2017.
  */
-public interface RegionService extends ContextualService<Region>{
+public interface RegionService{
 
     /**
      * Get all Regions that are available
