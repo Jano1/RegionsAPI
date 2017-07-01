@@ -14,6 +14,10 @@ import org.spongepowered.api.plugin.Plugin;
                 "Jano1"
         }
 )
+
+/**
+ * The main-class for this plugin with all the useful information
+ */
 public class RegionsAPI {
 
     @Inject
