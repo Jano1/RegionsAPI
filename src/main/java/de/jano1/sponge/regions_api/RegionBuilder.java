@@ -9,5 +9,5 @@ public interface RegionBuilder {
     public void finishBuilding();
 
     public boolean isValidBuild();
-    public Region getBuildedRegion();
+    public Region getRegion();
 }

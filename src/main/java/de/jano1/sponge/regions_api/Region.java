@@ -10,7 +10,11 @@ import org.spongepowered.api.world.Location;
  */
 public interface Region extends PluginRelatable, RegionParentable, Contextual {
     public RegionShape getShape();
+
     public RegionFlag[] getFlags();
+    public RegionFlag[] getFlagsRelatedTo(String plugin_id);
+    public void setFlag(RegionFlag flag);
+    public void setFlags(RegionFlag[] flags);
 
     public boolean containsLocation(Location location);
 }
