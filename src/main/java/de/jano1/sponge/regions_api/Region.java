@@ -11,6 +11,12 @@ import org.spongepowered.api.world.Location;
 public interface Region extends PluginRelatable, RegionParentable{
 
     /**
+     * Sets a new Shape for this region
+     * @param shape The new shape
+     */
+    public void setShape(RegionShape shape);
+
+    /**
      * Get the region_id of this region
      * @return The region_id as string
      */

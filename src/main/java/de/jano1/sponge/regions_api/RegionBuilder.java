@@ -10,6 +10,13 @@ public interface RegionBuilder {
      */
     public void startBuilding();
 
+
+    /**
+     * Sets a desired flag
+     * @param flag The desired flag
+     */
+    public void setDesiredFlag(RegionFlag flag);
+
     /**
      * Cancel the current building process
      */
