@@ -22,5 +22,5 @@ public interface PluginRelatable {
      * @param plugin_id The id of the plugin
      * @param status The desired status of the relation
      */
-    public void setRelationTo(String plugin_id,boolean status);
+    public void setRelationStatusTo(String plugin_id,boolean status);
 }
