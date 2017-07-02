@@ -3,6 +3,8 @@ package de.jano1.sponge.regions_api;
 import org.spongepowered.api.service.context.ContextualService;
 import org.spongepowered.api.world.Location;
 
+import java.util.Optional;
+
 /**
  * Created by Jano1 on 01.07.2017.
  */
@@ -19,7 +21,7 @@ public interface RegionService{
      * @param region_id The region id
      * @return A Region you are looking for
      */
-    public Region getRegionWithID(String region_id);
+    public Optional<Region> getRegionWithID(String region_id);
 
     /**
      * Adds a Region to the Service
