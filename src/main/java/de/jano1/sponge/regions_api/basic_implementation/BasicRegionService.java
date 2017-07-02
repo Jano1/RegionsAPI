@@ -2,6 +2,9 @@ package de.jano1.sponge.regions_api.basic_implementation;
 
 import de.jano1.sponge.regions_api.Region;
 import de.jano1.sponge.regions_api.RegionService;
+import org.spongepowered.api.Sponge;
+import org.spongepowered.api.command.spec.CommandSpec;
+import org.spongepowered.api.text.Text;
 import org.spongepowered.api.world.Location;
 
 import java.util.ArrayList;
