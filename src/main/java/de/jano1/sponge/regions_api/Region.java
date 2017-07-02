@@ -8,7 +8,13 @@ import org.spongepowered.api.world.Location;
 /**
  * Created by Jano1 on 01.07.2017.
  */
-public interface Region extends PluginRelatable, RegionParentable, Contextual {
+public interface Region extends PluginRelatable, RegionParentable{
+
+    /**
+     * Get the region_id of this region
+     * @return The region_id as string
+     */
+    public String getID();
 
     /**
      * Get the Shape of this Region
