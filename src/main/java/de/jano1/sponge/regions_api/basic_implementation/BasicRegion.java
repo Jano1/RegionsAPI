@@ -1,5 +1,6 @@
 package de.jano1.sponge.regions_api.basic_implementation;
 
+import de.jano1.sponge.regions_api.EmptyRegionShape;
 import de.jano1.sponge.regions_api.Region;
 import de.jano1.sponge.regions_api.RegionFlag;
 import de.jano1.sponge.regions_api.RegionShape;
@@ -7,6 +8,7 @@ import org.spongepowered.api.world.Location;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by Jano1 on 02.07.2017.
@@ -21,6 +23,10 @@ public class BasicRegion implements Region {
 
     public BasicRegion() {
         related_plugin_ids = new ArrayList<>();
+        parent_regions_ids = new ArrayList<>();
+        flags = new ArrayList<>();
+        id = UUID.randomUUID().toString();
+        shape = new EmptyRegionShape();
     }
 
     @Override
@@ -67,6 +73,11 @@ public class BasicRegion implements Region {
     @Override
     public void addParent(String region_id) {
         setParentalStatus(region_id, true);
+    }
+
+    @Override
+    public void setShape(RegionShape shape) {
+        this.shape = shape;
     }
 
     @Override
