@@ -4,6 +4,7 @@ import de.jano1.sponge.regions_api.EmptyRegionShape;
 import de.jano1.sponge.regions_api.Region;
 import de.jano1.sponge.regions_api.RegionFlag;
 import de.jano1.sponge.regions_api.RegionShape;
+import org.spongepowered.api.data.DataContainer;
 import org.spongepowered.api.world.Location;
 
 import java.util.ArrayList;
