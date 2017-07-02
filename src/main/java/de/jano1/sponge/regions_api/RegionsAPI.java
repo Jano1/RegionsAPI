@@ -1,6 +1,7 @@
 package de.jano1.sponge.regions_api;
 
 import com.google.inject.Inject;
+import de.jano1.sponge.regions_api.basic_implementation.BasicRegionService;
 import org.slf4j.Logger;
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.event.Listener;
@@ -28,6 +29,8 @@ public class RegionsAPI {
     @Listener
     public void onServerStart(GameStartedServerEvent event) {
         this.logger.info("Using RegionAPI!");
+        this.logger.info("Using the BasicRegionService...");
+        registerProvider(this, new BasicRegionService());
     }
 
     /**
@@ -35,7 +38,7 @@ public class RegionsAPI {
      * @param plugin_instance Your plugin instance
      * @param provider Your implementation of RegionService
      */
-    public void registerProvider(Plugin plugin_instance, RegionService provider){
+    public void registerProvider(Object plugin_instance, RegionService provider){
         Sponge.getServiceManager().setProvider(plugin_instance, RegionService.class, provider);
     }
 
