@@ -7,6 +7,7 @@ import de.jano1.sponge.regions_api.RegionShape;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by Jano1 on 02.07.2017.
@@ -20,7 +21,7 @@ public class BasicRegionBuilder_Chunks implements RegionBuilder {
     @Override
     public void startBuilding() {
         shape = new BasicRegionShape_Chunks();
-        current = new BasicRegion();
+        current = new BasicRegion(UUID.randomUUID().toString());
         flags = new ArrayList<>();
     }
 

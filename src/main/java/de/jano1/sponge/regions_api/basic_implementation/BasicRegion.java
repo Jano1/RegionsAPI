@@ -21,11 +21,11 @@ public class BasicRegion implements Region {
     private RegionShape shape;
     private List<RegionFlag> flags;
 
-    public BasicRegion() {
+    public BasicRegion(String id) {
         related_plugin_ids = new ArrayList<>();
         parent_regions_ids = new ArrayList<>();
         flags = new ArrayList<>();
-        id = UUID.randomUUID().toString();
+        this.id = id;
         shape = new EmptyRegionShape();
     }
 
