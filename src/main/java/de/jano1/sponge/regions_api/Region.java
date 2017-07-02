@@ -2,8 +2,10 @@ package de.jano1.sponge.regions_api;
 
 import de.jano1.sponge.regions_api.subfaces.PluginRelatable;
 import de.jano1.sponge.regions_api.subfaces.RegionParentable;
-import org.spongepowered.api.service.context.Contextual;
+import org.spongepowered.api.data.DataSerializable;
 import org.spongepowered.api.world.Location;
+
+import java.io.Serializable;
 
 /**
  * Created by Jano1 on 01.07.2017.
