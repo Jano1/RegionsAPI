@@ -3,15 +3,15 @@
   <ID>JAVA</ID>
   <OriginalElement>de.jano1.sponge.regions_api</OriginalElement>
   <nodes>
-    <node x="358.75" y="0.0">de.jano1.sponge.regions_api.subfaces.RegionParentable</node>
-    <node x="187.0" y="189.0">de.jano1.sponge.regions_api.Region</node>
-    <node x="0.0" y="277.0">de.jano1.sponge.regions_api.RegionFlag</node>
+    <node x="27.75" y="189.0">de.jano1.sponge.regions_api.Region</node>
+    <node x="446.75" y="277.0">de.jano1.sponge.regions_api.RegionFlag</node>
+    <node x="0.0" y="0.0">de.jano1.sponge.regions_api.subfaces.RegionParentable</node>
     <node x="0.0" y="483.0">de.jano1.sponge.regions_api.RegionService</node>
     <node x="658.75" y="0.0">de.jano1.sponge.regions_api.RegionShape</node>
     <node x="690.0" y="483.0">de.jano1.sponge.regions_api.RegionsAPI</node>
     <node x="375.0" y="483.0">de.jano1.sponge.regions_api.RegionBuilder</node>
     <node x="658.75" y="145.0">de.jano1.sponge.regions_api.EmptyRegionShape</node>
-    <node x="17.25" y="22.0">de.jano1.sponge.regions_api.subfaces.PluginRelatable</node>
+    <node x="331.5" y="22.0">de.jano1.sponge.regions_api.subfaces.PluginRelatable</node>
   </nodes>
   <notes />
   <edges>
@@ -19,28 +19,30 @@
       <point x="0.0" y="-47.5" />
       <point x="0.0" y="47.5" />
     </edge>
+    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.RegionParentable">
+      <point x="-99.75" y="-124.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
     <edge source="de.jano1.sponge.regions_api.RegionFlag" target="de.jano1.sponge.regions_api.subfaces.PluginRelatable">
       <point x="0.0" y="-36.5" />
-      <point x="-66.25" y="47.5" />
-    </edge>
-    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.PluginRelatable">
-      <point x="-99.75" y="-124.5" />
-      <point x="286.75" y="164.0" />
-      <point x="216.0" y="164.0" />
       <point x="66.25" y="47.5" />
     </edge>
-    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.RegionParentable">
+    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.PluginRelatable">
       <point x="99.75" y="-124.5" />
-      <point x="0.0" y="69.5" />
+      <point x="327.0" y="164.0" />
+      <point x="397.75" y="164.0" />
+      <point x="-66.25" y="47.5" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="0.8418674698795181" x="456.5" y="322.0" />
-  <SelectedNodes />
+  <SelectedNodes>
+    <node>de.jano1.sponge.regions_api.subfaces.PluginRelatable</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
+    <Category>Inner Classes</Category>
     <Category>Constructors</Category>
     <Category>Methods</Category>
-    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
