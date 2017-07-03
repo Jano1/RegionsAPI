@@ -11,6 +11,12 @@ import java.util.Optional;
 public interface RegionService{
 
     /**
+     * Sets the default region
+     * @param to_set A region object
+     */
+    public void setDefaultRegion(Region to_set);
+
+    /**
      * Get all Regions that are available
      * @return Array of Regions
      */

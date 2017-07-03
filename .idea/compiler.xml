@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="regions_api_main" target="1.8" />
       <module name="regions_api_test" target="1.8" />
+      <module name="RegionsAPI_main" target="1.8" />
+      <module name="RegionsAPI_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

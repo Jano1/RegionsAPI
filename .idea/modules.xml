@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/regions_api.iml" filepath="$PROJECT_DIR$/regions_api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/regions_api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/regions_api_main.iml" group="regions_api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/regions_api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/regions_api_test.iml" group="regions_api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegionsAPI.iml" filepath="$PROJECT_DIR$/.idea/modules/RegionsAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegionsAPI_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RegionsAPI_main.iml" group="RegionsAPI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RegionsAPI_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RegionsAPI_test.iml" group="RegionsAPI" />
     </modules>
   </component>
 </project>

@@ -3,40 +3,44 @@
   <ID>JAVA</ID>
   <OriginalElement>de.jano1.sponge.regions_api</OriginalElement>
   <nodes>
-    <node x="315.0" y="441.0">de.jano1.sponge.regions_api.RegionService</node>
-    <node x="0.0" y="0.0">de.jano1.sponge.regions_api.subfaces.RegionParentable</node>
-    <node x="53.0" y="190.0">de.jano1.sponge.regions_api.Region</node>
-    <node x="408.75" y="256.5">de.jano1.sponge.regions_api.RegionFlag</node>
-    <node x="228.0" y="648.0">de.jano1.sponge.regions_api.RegionShape</node>
-    <node x="0.0" y="648.0">de.jano1.sponge.regions_api.RegionsAPI</node>
-    <node x="0.0" y="441.0">de.jano1.sponge.regions_api.RegionBuilder</node>
-    <node x="280.0" y="22.0">de.jano1.sponge.regions_api.subfaces.PluginRelatable</node>
+    <node x="358.75" y="0.0">de.jano1.sponge.regions_api.subfaces.RegionParentable</node>
+    <node x="187.0" y="189.0">de.jano1.sponge.regions_api.Region</node>
+    <node x="0.0" y="277.0">de.jano1.sponge.regions_api.RegionFlag</node>
+    <node x="0.0" y="483.0">de.jano1.sponge.regions_api.RegionService</node>
+    <node x="658.75" y="0.0">de.jano1.sponge.regions_api.RegionShape</node>
+    <node x="690.0" y="483.0">de.jano1.sponge.regions_api.RegionsAPI</node>
+    <node x="375.0" y="483.0">de.jano1.sponge.regions_api.RegionBuilder</node>
+    <node x="658.75" y="145.0">de.jano1.sponge.regions_api.EmptyRegionShape</node>
+    <node x="17.25" y="22.0">de.jano1.sponge.regions_api.subfaces.PluginRelatable</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="de.jano1.sponge.regions_api.EmptyRegionShape" target="de.jano1.sponge.regions_api.RegionShape">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
     <edge source="de.jano1.sponge.regions_api.RegionFlag" target="de.jano1.sponge.regions_api.subfaces.PluginRelatable">
       <point x="0.0" y="-36.5" />
-      <point x="63.75" y="48.0" />
-    </edge>
-    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.RegionParentable">
-      <point x="-77.0" y="-103.0" />
-      <point x="0.0" y="70.0" />
+      <point x="-66.25" y="47.5" />
     </edge>
     <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.PluginRelatable">
-      <point x="77.0" y="-103.0" />
-      <point x="284.0" y="165.0" />
-      <point x="343.75" y="165.0" />
-      <point x="-63.75" y="48.0" />
+      <point x="-99.75" y="-124.5" />
+      <point x="286.75" y="164.0" />
+      <point x="216.0" y="164.0" />
+      <point x="66.25" y="47.5" />
+    </edge>
+    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.RegionParentable">
+      <point x="99.75" y="-124.5" />
+      <point x="0.0" y="69.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.68717277486911" x="347.5" y="372.0" />
+  <settings layout="Hierarchic Group" zoom="0.8418674698795181" x="456.5" y="322.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
-    <Category>Inner Classes</Category>
     <Category>Constructors</Category>
-    <Category>Properties</Category>
     <Category>Methods</Category>
+    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
